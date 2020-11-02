@@ -1,0 +1,48 @@
+body {
+  background-color: white;
+  font-size: 16px;
+}
+#nav {
+  width: 800px;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+h5 {
+  display: absolute;
+}
+#row1,
+#row2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+iframe {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 10px;
+    width: 400px;
+    
+  }
+  img{
+    width: 40%;
+  }
+  iframe{
+    width: 20%;
+    height: 50%;
+    width: 200px;
+
+  }
+  #nav{
+    width: 380Px;
+    margin: 0 auto;
+  }
+  h5{
+    font-size: smaller;
+    font-weight: bolder;
+  }
+}
