@@ -29,6 +29,15 @@ input[type=email] {
     border-color: #007bff;
 
 }
+input[type=password] {
+    width: 80%;
+    padding-bottom: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    border-color: #007bff;
+
+}
 input[type=number] {
     width: 80%;
     padding-bottom: 5px;
@@ -38,17 +47,7 @@ input[type=number] {
     border-color: #007bff;
 
 }
-#message,::placeholder{
-    color: #9e8484;
-    border-radius: 5px;
-    box-sizing: border-box;
-    background-color: transparent;
-    width: auto;
-    height: auto;
-    margin: 5px;
-    border-color: #007bff;
 
-}
 button[type=submit] {
     width: 100px;
     height: 40px;
@@ -60,3 +59,37 @@ button[type=submit] {
 button[type=submit]:hover{
     background-color: black;
 }
+.footer{
+    background-color: #007bff;
+    color: black;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 200px;
+    padding: 15px;
+   }
+   .footer-links,.footer-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+   }
+   .footer-link{
+    color: black;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+   }
+   .footer-link:hover{
+    color: white;
+   }
+   .footer-icon{
+    font-size: 1.9rem;
+    margin-right: 1rem;
+    color: white;
+    transition:var(--mainTransition) ;
+   }
+   
+   .foot {
+       margin-right: 4.8%;
+       margin-left: 0.5%;
+   }
